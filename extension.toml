@@ -1,0 +1,7 @@
+id = "twin-peaks-theme"
+name = "Twin Peaks"
+version = "0.0.1"
+schema_version = 1
+authors = ["Matthew"]
+description = "A warm light theme inspired by Twin Peaks — Red Room curtains, Douglas firs, and the Packard Sawmill."
+repository = "https://github.com/matthewyeager/twin-peaks-theme"
