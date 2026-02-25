@@ -3,5 +3,5 @@ name = "Twin Peaks"
 version = "0.0.1"
 schema_version = 1
 authors = ["Matthew"]
-description = "A warm light theme inspired by Twin Peaks — Red Room curtains, Douglas firs, and the Packard Sawmill."
+description = "Two themes inspired by Twin Peaks. Great Northern Hotel is a warm, light theme. Think Douglas firs, Packard Sawmill, and a hot cup of coffee. One Eyed Jacks...you've never heard of it? It's a place up north."
 repository = "https://github.com/matthewyeager/twin-peaks-theme"
