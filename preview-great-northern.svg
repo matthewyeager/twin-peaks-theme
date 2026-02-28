@@ -30,8 +30,10 @@
         .n{color:#AE7818}
         .o{color:#587A98}
         .c{color:#B84818}
-        .p{color:#7A5038}
-        .pt{color:#5A3828}
+        .p{color:#906028}
+        .pt{color:#A89880}
+        .pr{color:#7A5B2D}
+        .at{color:#82683A;font-style:italic}
       </style>
       <div class="w">
         <div class="tb">
@@ -58,9 +60,9 @@
 <div class="cl"><span class="kw">import</span> <span class="kw">type</span> <span class="pt">{</span> <span class="t">GuestRecord</span> <span class="pt">}</span> <span class="kw">from</span> <span class="s">'../types'</span><span class="pt">;</span></div>
 <div class="cl"></div>
 <div class="cl"><span class="kw">interface</span> <span class="t">LobbyProps</span> <span class="pt">{</span></div>
-<div class="cl">  <span class="pt">hotelName</span><span class="pt">:</span> <span class="t">string</span><span class="pt">;</span></div>
-<div class="cl">  <span class="pt">floor</span><span class="pt">:</span> <span class="t">number</span><span class="pt">;</span></div>
-<div class="cl">  <span class="pt">onCheckIn</span><span class="pt">:</span> <span class="pt">(</span><span class="p">guest</span><span class="pt">:</span> <span class="t">GuestRecord</span><span class="pt">)</span> <span class="o">=&gt;</span> <span class="t">void</span><span class="pt">;</span></div>
+<div class="cl">  <span class="pr">hotelName</span><span class="pt">:</span> <span class="t">string</span><span class="pt">;</span></div>
+<div class="cl">  <span class="pr">floor</span><span class="pt">:</span> <span class="t">number</span><span class="pt">;</span></div>
+<div class="cl">  <span class="pr">onCheckIn</span><span class="pt">:</span> <span class="pt">(</span><span class="p">guest</span><span class="pt">:</span> <span class="t">GuestRecord</span><span class="pt">)</span> <span class="o">=&gt;</span> <span class="t">void</span><span class="pt">;</span></div>
 <div class="cl"><span class="pt">}</span></div>
 <div class="cl"></div>
 <div class="cl"><span class="cm">// The Great Northern — warmth, darkness, and Douglas firs</span></div>
@@ -73,11 +75,11 @@
 <div class="cl">  <span class="kw">const</span> <span class="c">maxOccupancy</span> <span class="o">=</span> <span class="n">315</span><span class="pt">;</span></div>
 <div class="cl"></div>
 <div class="cl">  <span class="kw">return</span> <span class="pt">(</span></div>
-<div class="cl">    <span class="pt">&lt;</span><span class="t">div</span> <span class="pt">className</span><span class="o">=</span><span class="s">"lobby"</span><span class="pt">&gt;</span></div>
+<div class="cl">    <span class="pt">&lt;</span><span class="t">div</span> <span class="at">className</span><span class="o">=</span><span class="s">"lobby"</span><span class="pt">&gt;</span></div>
 <div class="cl">      <span class="pt">&lt;</span><span class="t">RoomKey</span></div>
-<div class="cl">        <span class="pt">floor</span><span class="o">={</span><span class="p">floor</span><span class="o">}</span></div>
-<div class="cl">        <span class="pt">capacity</span><span class="o">={</span><span class="c">maxOccupancy</span><span class="o">}</span></div>
-<div class="cl">        <span class="pt">onCheckIn</span><span class="o">={</span><span class="p">onCheckIn</span><span class="o">}</span></div>
+<div class="cl">        <span class="at">floor</span><span class="o">={</span><span class="p">floor</span><span class="o">}</span></div>
+<div class="cl">        <span class="at">capacity</span><span class="o">={</span><span class="c">maxOccupancy</span><span class="o">}</span></div>
+<div class="cl">        <span class="at">onCheckIn</span><span class="o">={</span><span class="p">onCheckIn</span><span class="o">}</span></div>
 <div class="cl">      <span class="pt">/&gt;</span></div>
 <div class="cl">    <span class="pt">&lt;/</span><span class="t">div</span><span class="pt">&gt;</span></div>
 <div class="cl">  <span class="pt">);</span></div>

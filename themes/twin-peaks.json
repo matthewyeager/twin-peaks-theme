@@ -135,7 +135,7 @@
         ],
         "syntax": {
           "attribute": {
-            "color": "#5A3828",
+            "color": "#82683A",
             "font_style": "italic"
           },
           "boolean": {
@@ -147,7 +147,7 @@
             "font_style": "italic"
           },
           "comment.doc": {
-            "color": "#5A3828",
+            "color": "#7A6860",
             "font_style": "italic"
           },
           "constant": {
@@ -192,7 +192,7 @@
             "font_weight": 600
           },
           "label": {
-            "color": "#5A3828"
+            "color": "#7A5B2D"
           },
           "link_text": {
             "color": "#6A508A"
@@ -218,16 +218,16 @@
             "color": "#2A1408"
           },
           "property": {
-            "color": "#5A3828"
+            "color": "#7A5B2D"
           },
           "punctuation": {
-            "color": "#5A3828"
+            "color": "#A89880"
           },
           "punctuation.bracket": {
-            "color": "#5A3828"
+            "color": "#A89880"
           },
           "punctuation.delimiter": {
-            "color": "#5A3828"
+            "color": "#A89880"
           },
           "punctuation.list_marker": {
             "color": "#8B1A1A"
@@ -239,7 +239,7 @@
             "color": "#3A7228"
           },
           "string.escape": {
-            "color": "#7A5038"
+            "color": "#946030"
           },
           "string.regex": {
             "color": "#B84818"
@@ -248,7 +248,7 @@
             "color": "#2E6828"
           },
           "string.special.symbol": {
-            "color": "#5A3828"
+            "color": "#7A5B2D"
           },
           "tag": {
             "color": "#6A508A"
@@ -271,10 +271,10 @@
             "color": "#2A1408"
           },
           "variable.member": {
-            "color": "#5A3828"
+            "color": "#7A5B2D"
           },
           "variable.parameter": {
-            "color": "#7A5038"
+            "color": "#906028"
           },
           "variable.special": {
             "color": "#B84818"
