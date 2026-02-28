@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 640" width="820" height="640">
+  <foreignObject width="820" height="640">
+    <div xmlns="http://www.w3.org/1999/xhtml" style="margin:0;padding:0;font-family:monospace;">
+      <style>
+        .w{width:820px;height:640px;overflow:hidden;border-radius:10px;border:1px solid #38151A;font-family:'JetBrains Mono','Fira Code','SF Mono','Cascadia Code','Consolas',monospace}
+        .tb{background:#14080C;border-bottom:1px solid #38151A;height:36px;display:flex;align-items:center;padding:0 14px;position:relative}
+        .tl{display:flex;gap:7px;align-items:center}
+        .d{width:12px;height:12px;border-radius:50%}
+        .dr{background:#C41A2A}.dy{background:#C8901A}.dg{background:#5A8A48}
+        .tc{position:absolute;left:50%;transform:translateX(-50%);font-size:11px;color:#9A7060}
+        .tabs{background:#14080C;border-bottom:1px solid #38151A;display:flex;align-items:flex-end;padding:0 0 0 10px;gap:2px}
+        .tab{display:flex;align-items:center;gap:6px;padding:6px 14px;font-size:12px;border-radius:6px 6px 0 0}
+        .ton{background:#100608;color:#F0D8C0;border:1px solid #38151A;border-bottom:1px solid #100608;margin-bottom:-1px;z-index:1}
+        .tof{background:transparent;color:#6A4038}
+        .td{width:6px;height:6px;border-radius:50%;background:#C41A2A}
+        .eb{display:flex;background:#100608}
+        .g{background:#150A0C;border-right:1px solid #38151A;padding:12px 0;min-width:48px}
+        .ln{font-size:12px;line-height:20px;text-align:right;padding:0 12px 0 8px;color:#52281C}
+        .la{color:#C41A2A}
+        .ca{padding:12px 20px;flex:1;overflow:hidden}
+        .cl{font-size:13px;line-height:20px;white-space:pre;min-height:20px;color:#F0D8C0}
+        .al{background:rgba(28,13,16,0.16);margin:0 -20px;padding:0 20px}
+        .sb{background:#0D0608;padding:4px 14px;display:flex;justify-content:space-between;align-items:center}
+        .si{font-size:11px;color:rgba(240,216,192,0.5);letter-spacing:0.03em}
+        .kw{color:#C41A2A;font-weight:600}
+        .fn{color:#C8901A}
+        .s{color:#7A9060}
+        .t{color:#9B6070}
+        .cm{color:#F5A536;font-style:italic}
+        .n{color:#E0A830}
+        .o{color:#7A5040}
+        .c{color:#C84A30}
+        .p{color:#C8901A}
+        .pt{color:#6A4038}
+        .pr{color:#B09080}
+        .at{color:#B09080;font-style:italic}
+        .v{color:#DCC0A8}
+      </style>
+      <div class="w">
+        <div class="tb">
+          <div class="tl"><div class="d dr"></div><div class="d dy"></div><div class="d dg"></div></div>
+          <span class="tc">BlackLodge.tsx — One Eyed Jacks</span>
+        </div>
+        <div class="tabs">
+          <div class="tab ton"><div class="td"></div>BlackLodge.tsx</div>
+          <div class="tab tof">curtains.ts</div>
+          <div class="tab tof">DanceFloor.tsx</div>
+        </div>
+        <div class="eb">
+          <div class="g">
+            <div class="ln"> 1</div><div class="ln"> 2</div><div class="ln"> 3</div><div class="ln"> 4</div>
+            <div class="ln"> 5</div><div class="ln"> 6</div><div class="ln"> 7</div><div class="ln"> 8</div>
+            <div class="ln"> 9</div><div class="ln">10</div><div class="ln">11</div><div class="ln">12</div>
+            <div class="ln">13</div><div class="ln la">14</div><div class="ln">15</div><div class="ln">16</div>
+            <div class="ln">17</div><div class="ln">18</div><div class="ln">19</div><div class="ln">20</div>
+            <div class="ln">21</div><div class="ln">22</div><div class="ln">23</div><div class="ln">24</div>
+            <div class="ln">25</div><div class="ln">26</div><div class="ln">27</div>
+          </div>
+          <div class="ca">
+<div class="cl"><span class="kw">import</span> <span class="t">React</span><span class="pt">,</span> <span class="pt">{</span> <span class="t">useState</span><span class="pt">,</span> <span class="t">useEffect</span> <span class="pt">}</span> <span class="kw">from</span> <span class="s">'react'</span><span class="pt">;</span></div>
+<div class="cl"><span class="kw">import</span> <span class="kw">type</span> <span class="pt">{</span> <span class="t">Spirit</span><span class="pt">,</span> <span class="t">Vessel</span> <span class="pt">}</span> <span class="kw">from</span> <span class="s">'../curtains'</span><span class="pt">;</span></div>
+<div class="cl"></div>
+<div class="cl"><span class="kw">interface</span> <span class="t">LodgeProps</span> <span class="pt">{</span></div>
+<div class="cl">  <span class="pr">realm</span><span class="pt">:</span> <span class="s">'black'</span> <span class="o">|</span> <span class="s">'white'</span><span class="pt">;</span></div>
+<div class="cl">  <span class="pr">occupants</span><span class="pt">:</span> <span class="t">Spirit</span><span class="pt">[];</span></div>
+<div class="cl">  <span class="pr">onManifest</span><span class="pt">:</span> <span class="pt">(</span><span class="p">vessel</span><span class="pt">:</span> <span class="t">Vessel</span><span class="pt">)</span> <span class="o">=&gt;</span> <span class="t">void</span><span class="pt">;</span></div>
+<div class="cl"><span class="pt">}</span></div>
+<div class="cl"></div>
+<div class="cl"><span class="cm">// Through the darkness of future past</span></div>
+<div class="cl"><span class="kw">const</span> <span class="fn">BlackLodge</span><span class="pt">:</span> <span class="t">React.FC</span><span class="pt">&lt;</span><span class="t">LodgeProps</span><span class="pt">&gt;</span> <span class="o">=</span> <span class="pt">({</span></div>
+<div class="cl">  <span class="p">realm</span><span class="pt">,</span></div>
+<div class="cl">  <span class="p">occupants</span><span class="pt">,</span></div>
+<div class="cl al">  <span class="p">onManifest</span><span class="pt">,</span></div>
+<div class="cl"><span class="pt">})</span> <span class="o">=&gt;</span> <span class="pt">{</span></div>
+<div class="cl">  <span class="kw">const</span> <span class="pt">[</span><span class="v">garmonbozia</span><span class="pt">,</span> <span class="fn">setGarmonbozia</span><span class="pt">]</span> <span class="o">=</span> <span class="fn">useState</span><span class="pt">&lt;</span><span class="t">number</span><span class="pt">&gt;(</span><span class="n">0</span><span class="pt">);</span></div>
+<div class="cl">  <span class="kw">const</span> <span class="c">CURTAIN_COUNT</span> <span class="o">=</span> <span class="n">12</span><span class="pt">;</span></div>
+<div class="cl"></div>
+<div class="cl">  <span class="fn">useEffect</span><span class="pt">(()</span> <span class="o">=&gt;</span> <span class="pt">{</span></div>
+<div class="cl">    <span class="cm">// The magician longs to see</span></div>
+<div class="cl">    <span class="kw">const</span> <span class="v">doubled</span> <span class="o">=</span> <span class="p">occupants</span><span class="pt">.</span><span class="fn">filter</span><span class="pt">(</span><span class="p">s</span> <span class="o">=&gt;</span> <span class="p">s</span><span class="pt">.</span><span class="pr">hasDoppelganger</span><span class="pt">);</span></div>
+<div class="cl">    <span class="fn">setGarmonbozia</span><span class="pt">(</span><span class="v">doubled</span><span class="pt">.</span><span class="pr">length</span> <span class="o">*</span> <span class="c">CURTAIN_COUNT</span><span class="pt">);</span></div>
+<div class="cl">  <span class="pt">},</span> <span class="pt">[</span><span class="p">occupants</span><span class="pt">]);</span></div>
+<div class="cl"></div>
+<div class="cl">  <span class="kw">return</span> <span class="pt">(</span></div>
+<div class="cl">    <span class="pt">&lt;</span><span class="t">DanceFloor</span> <span class="at">realm</span><span class="o">={</span><span class="p">realm</span><span class="o">}</span> <span class="at">pain</span><span class="o">={</span><span class="v">garmonbozia</span><span class="o">}</span> <span class="pt">/&gt;</span></div>
+<div class="cl">  <span class="pt">);</span></div>
+<div class="cl"><span class="pt">};</span></div>
+          </div>
+        </div>
+        <div class="sb">
+          <span class="si">TypeScript JSX</span>
+          <span class="si">Twin Peaks · One Eyed Jacks</span>
+          <span class="si">Ln 14, Col 14</span>
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>

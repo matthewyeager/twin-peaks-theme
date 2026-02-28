@@ -12,4 +12,4 @@ A warm, light theme. Think Douglas firs, Packard Sawmill, and a damn fine cup of
 
 A dark theme. You've never heard of it? It's a place up north. Candlelit velvet, dark wood, cigarette smoke.
 
-<!-- ![One Eyed Jacks theme preview](preview-one-eyed-jacks.svg) -->
+![One Eyed Jacks theme preview](preview-one-eyed-jacks.svg)
